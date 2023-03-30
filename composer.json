@@ -1,0 +1,23 @@
+{
+    "name": "yarzar/composerautoload",
+    "authors": [
+        {
+            "name": "Yarzar",
+            "email": "myatthurein862@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "yarzar\\src\\": "yarzar/src/"
+        },
+        "files": [
+            "yarzar/helpers/functions.php"
+        ],
+        "classmap": [
+            "yarzar/providers"
+        ]
+    }
+}
